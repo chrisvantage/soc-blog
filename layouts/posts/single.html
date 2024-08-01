@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ .Title }}</title>
+</head>
+<body>
+  {{ partial "header" . }}
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Date }}</p>
+  {{ .Content }}
+  {{ partial "footer" . }}
+</body>
+</html>
